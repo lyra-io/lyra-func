@@ -1,8 +1,10 @@
 [package]
-name = "func"
-version = "0.1.0"
-edition = "2024"
-resolver = "3"
+name = "lyra-func"
+description = "Query task runtime for Lyra: executes distributed query fragments."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
 
 [dependencies]
-meta = { path = "../meta" }
+lyra-meta = { workspace = true }
